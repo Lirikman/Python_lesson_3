@@ -65,7 +65,7 @@ for key in sorted_dict:
     strings.append(key)
 rev_strings = strings[::-1]
 
-print('Самые часто встречаемые слова в тексте: ', (rev_strings[:5]))
+print('Самые часто встречаемые слова в тексте: ', rev_strings[:5])
 
 a = set(new_list)
 print('Количество разных слов в тексте: ', len(a))
